@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/index.css">
     <title>Dawwa Dev</title>
 </head>
 <body>
 
     <header>
-        <div class="nav-bar">
-            <ul class="nav-bar-elements" style="font-family: Arial, Helvetica, sans-serif;">
-                <li>
-                    <a href="pages/projects.html">Projects</a>
-                </li>
-    
-                <li>
-                    <a href="pages/contact.html">Contact</a>
-                </li>
-    
-                <li>
-                    <a href="pages/info.html">Info</a>
-                </li>
-            </ul>
-        </div>
+        
+        <a href="http://localhost:5500">
+            <img src="imgs/dawwa-logo.png" alt="">
+        </a>
 
-       <img class="logo" src="imgs/dawwa-logo.png" alt="logo" width="150px" height="150px">
+        <nav>
+            <div class="dropdown">
+                <span class="nav-element">Projects</span>
+                <div class="dropdown-content">
+                    <a href="pages/projects.html">Discord bot</a>
+                    <a href="pages/projects.html">Discord bot</a>
+                    <a href="pages/projects.html">Discord bot</a>
+                    <a href="pages/projects.html">Discord bot</a>
+                </div>
+            </div>
+            <a class="nav-element" href="pages/info.html">Info</a>
+            <a class="nav-element" href="pages/contact.html">Contact</a>
+        </nav>
     </header>
+
+    <div class="about-me">
+        <h1>About me!</h1>
+        <p>Hi there! I'm Dawwa, a 14yo aspiring programmer</p>
+        <p>currently learning HTML, CSS, JS/TS, PHP and Python! </p>
+    </div>
 
 </body>
 </html>
