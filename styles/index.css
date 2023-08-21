@@ -10,12 +10,12 @@ header {
 }
 
 header img {
-    display: inline-block;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    padding: 19px;
-    margin: 0 auto;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 90px;
+    width: 90px;
 }
 
 nav {
@@ -112,9 +112,7 @@ nav {
 }
 
 .logo {
-    position: absolute;
-    top: 15px;
-    right: 15px;
+    
 
     width: 90px;
     height: 90px;
